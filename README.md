@@ -10,5 +10,6 @@ Put information about your project here.
 *This day in history (anniversaries)
 *1919 February 26th — Grand Canyon established as national park
 *1904 March 2nd - Dr. Seuss' birthday
+March 6 1475 Michelangelo's birthday
 
 ## Content for google doodle
