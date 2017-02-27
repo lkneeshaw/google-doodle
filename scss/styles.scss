@@ -18,3 +18,21 @@
 #line:hover {
     transform: scale(1.2);
 }
+
+h1 {
+    position: absolute;
+    margin: 0;
+    top: 0;
+}
+
+//Test svg
+
+#star {
+    width: 20%;
+    transform: translateY(-100px);
+    transition: transform .5s;
+}
+
+#stage:hover img {
+    transform: translate(0);
+}

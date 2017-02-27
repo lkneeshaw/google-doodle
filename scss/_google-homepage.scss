@@ -2,9 +2,11 @@
 
 #stage {
     background: skyblue;
-    border-radius: 50%;
+//    border-radius: 50%;
     height: 20em;
     width: 40em;
+    position: relative;
+    overflow: auto;
 }
 
 #stage #star {

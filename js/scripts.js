@@ -12,3 +12,17 @@ console.log(numRand);
 
 // Show Images
 //$('img').attr('src', eval('img' + numRand) );
+
+//hide circle
+    $('#stage svg').hide();
+
+//click on button
+
+$('button').click(function(){
+    
+  //show circle
+    $('#stage svg').show('slow');
+    
+    console.log('OK');
+    
+});
