@@ -4,19 +4,17 @@
 
 @import 'google-homepage';
 
-body {
-    background: orange;
-}
 
 // First frame
 
 #line {
-    transform: scale(.5);
+    width: 100%;
+    transform: scale(1);
     transition: transform .5s;
 }
 
 // Last frame
 
 #line:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
