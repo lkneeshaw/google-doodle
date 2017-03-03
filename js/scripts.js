@@ -1,9 +1,9 @@
 // Randomize Image
 
 // Store Image URLS
-var img0 = '../img/200.jpg';
-var img1 = '../img/300.jpg';
-var img2 = '../img/400.jpg';
+var img0 = '../img/sunny-bg.svg';
+var img1 = '../img/partially-cloudy-bg.svg';
+var img2 = '../img/cloudy-svg.svg';
 
 // Get Random Number
 var limit = 3;
@@ -11,12 +11,12 @@ var numRand = Math.floor( Math.random() * limit );
 console.log(numRand);
 
 // Show Images
-//$('img').attr('src', eval('img' + numRand) );
+$('img').attr('src', eval('img' + numRand) );
 
 // DrawSVG plugin
-var doodle = $('#steam1').drawsvg();
-// Animate!
-  doodle.drawsvg('animate');  
+//var doodle = $('#steam1').drawsvg();
+//// Animate!
+//  doodle.drawsvg('animate');  
 
 
 ////hide circle
