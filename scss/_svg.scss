@@ -5,6 +5,32 @@
     width: 95%;
 }
 
+//Randomized Background
+$bg0 : url(../img/sunny-bg.svg);
+$bg1 : url(../img/partially-cloudy-bg.svg);
+$bg2 : url(../img/cloudy-bg.svg);
+
+.bg0 {
+    background: $bg0;
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+}
+
+.bg1 {
+  background: $bg1;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+}
+
+.bg2 {
+  background: $bg2;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+}
+
 //Keyframe Animations
 
 .geyser {
