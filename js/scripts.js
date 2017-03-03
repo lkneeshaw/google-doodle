@@ -14,7 +14,7 @@ console.log(numRand);
 //$('img').attr('src', eval('img' + numRand) );
 
 //hide circle
-    $('#stage svg').hide();
+//    $('#stage svg').hide();
 
 //click on button
 
