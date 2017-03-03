@@ -13,16 +13,20 @@ console.log(numRand);
 // Show Images
 //$('img').attr('src', eval('img' + numRand) );
 
-//hide circle
-//    $('#stage svg').hide();
+// DrawSVG plugin
+var doodle = $('#steam1').drawsvg();
+// Animate!
+  doodle.drawsvg('animate');  
 
-//click on button
 
-$('button').click(function(){
-    
-  //show circle
-    $('#stage svg').show('slow');
-    
+////hide circle
+//    $('#steam1').hide();
+//
+////click on button
+//
+//$('#stage').click(function(){
+//    $('#steam2').show('fast');
+//    
     console.log('OK');
     
-});
+//});
