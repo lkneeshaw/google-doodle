@@ -12,7 +12,7 @@ As beautiful as these features are, they're merely symptoms of something larger.
 
 Yellowstone is also famous for its wildlife. It is home to hundreds of species, most notably grizzly bear, bison, wolves, and elk. The Yellowstone bison herd is the largest public herd of American Bison in the US. 
 
-Notable Features
+### Notable Features
 
 *Old Faithful Geyser
 *Grand Canyon of the Yellowstone
@@ -24,5 +24,10 @@ Notable Features
 *Trees - most of the land is subalpine forest
 *Prismatic Springs
 
+### Photo References
+
 ![Photo References](img/yellowstone-reference.png)
+
+### Sketch
+
 ![Doodle Sketch](img/yellowstone-sketch.png)
