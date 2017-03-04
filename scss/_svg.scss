@@ -1,8 +1,15 @@
 //SVG styling
 
-#stage svg {
+#stage #doodle {
     margin: auto;
     width: 95%;
+}
+
+#steam {
+    position: absolute;
+    left: 70px;
+    top: 24px;
+    width: 19%;
 }
 
 //Randomized Background

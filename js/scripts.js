@@ -15,9 +15,19 @@ $('#stage').addClass( 'bg' + numRand );
 //$('div').addClass('src', eval('img' + numRand) );
 
 // DrawSVG plugin
-//var doodle = $('#steam1').drawsvg();
-//// Animate!
-//  doodle.drawsvg('animate');  
+var google = $('#steam').drawsvg({
+  duration : 2000,
+  stagger: 500
+});
+
+// Animate SVG points
+   google.drawsvg('animate');
+
+$('#stage').click(function(){
+   google.drawsvg('animate'); 
+    
+    console.log('OK');
+});
 
 
 ////hide circle
