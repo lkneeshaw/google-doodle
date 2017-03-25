@@ -2,10 +2,25 @@
 
 #stage {
 //    border-radius: 50%;
+    margin-top: 70px;
     height: 20em;
     width: 40em;
-    overflow: auto;
     position: relative;
+}
+
+#message {
+    margin: auto;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+}
+
+#stage:hover {
+    #message {
+        opacity: 1;
+    }
 }
 
 
