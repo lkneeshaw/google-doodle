@@ -1,3 +1,11 @@
+//Imports
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body {
+    background: #dcf6ff;
+}
+
 /* Stage */
 
 #stage {
@@ -9,10 +17,12 @@
 }
 
 #message {
+    color: #61bbd4;
+    font-family: 'Quicksand', sans-serif;
     margin: auto;
     position: absolute;
     top: -40px;
-    left: 20px;
+    left: 45px;
     opacity: 0;
     transition: opacity 0.5s linear;
 }
